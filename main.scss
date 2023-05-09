@@ -1,0 +1,14 @@
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  $navcolor,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark
+);
+$navcolor: hsl(0, 2%, 24%);
+
+
+@import "node_modules/bootstrap/scss/bootstrap";
