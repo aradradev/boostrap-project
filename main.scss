@@ -1,14 +1,17 @@
-$theme-colors: (
-  "primary":    $primary,
-  "secondary":  $navcolor,
-  "success":    $success,
-  "info":       $info,
-  "warning":    $warning,
-  "danger":     $danger,
-  "light":      $light,
-  "dark":       $dark
-);
-$navcolor: hsl(0, 2%, 24%);
+// $theme-colors: (
+//   "primary":    $primary,
+//   "secondary":  $navcolor,
+//   "success":    $success,
+//   "info":       $info,
+//   "warning":    $warning,
+//   "danger":     $danger,
+//   "light":      $light,
+//   "dark":       $dark
+// );
+$primary:hsl(22, 100%, 48%);
+$success: hsl(0, 0%, 81%);
+$secondary: hsl(0, 2%, 24%);
+$dark:hsl(20, 6%, 10%);
 
 
 @import "node_modules/bootstrap/scss/bootstrap";
