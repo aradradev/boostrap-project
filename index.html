@@ -10,16 +10,20 @@
 </head>
 <body>
     <main class="container-fluid p-0 w-100">
-        <nav class="row w-100 bg-secondary m-0 py-3 align-items-center">
-                <a href="#" class="col-7 ms-5 ps-5 text-success text-decoration-none">Koppai & Jalloh</a>
-                <a href="#" class="col-1 text-success text-decoration-none">Portfolio</a>
-                <a href="#" class="col-1 text-success text-decoration-none">About</a>
-                <a href="#" class="col-1 text-success text-decoration-none">Contact</a>
-                <a href="mailto:abdoulramanediallo44@gmail.com" class="col-1 text-success text-decoration-none"><i class="fas fa-envelope"></i></a>
+        <nav class="row w-100 bg-secondary m-0 py-3 align-items-center navbar navbar-expand-sm">
+                <a href="#" class="col-4 ms-3 ps-5 text-success text-decoration-none d-block d-sm-none">Koppai & Jalloh</a>
+                <a href="" class="d-block d-sm-none col-1 text-success"><img src="images/Icon - Menu.png" alt="icon menu"></a>
+
+                <a href="#" class="col-7 ms-5 ps-5 text-success text-decoration-none d-none d-sm-flex">Koppai & Jalloh</a>
+
+                <a href="#" class="col-1 text-success text-decoration-none d-none d-sm-flex">Portfolio</a>
+                <a href="#" class="col-1 text-success text-decoration-none d-none d-sm-flex">About</a>
+                <a href="#" class="col-1 text-success text-decoration-none d-none d-sm-flex">Contact</a>
+                <a href="mailto:abdoulramanediallo44@gmail.com" class="col-1 text-success text-decoration-none d-none d-sm-flex"><i class="fas fa-envelope"></i></a>
         </nav>
 
         <section class="row w-100 bg-dark m-0 align-items-center">
-            <div class="col-1">
+            <div class="col-1 col-sm flex-column-reverse">
                 <ul class="list-unstyled ps-3">
                     <li><a href="https://github.com/aradradev/" target="_blank" rel="noopener noreferrer"><i class="fab fa-github text-success pb-2" aria-hidden="true"></i></a></li>
                     <li><a href="https://aradradev.github.io/myportfolio/" target="_blank" rel="noopener noreferrer"><i class="fab fa-angellist text-success pb-2"></i></a></li>
@@ -148,45 +152,46 @@
                     <p>Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
                     <button class="bg-primary btn" type="submit">Get my resume</button>
                 </div>
-                <div class="card bg-transparent" style="width:45%;height:100%;background-image: url('images/illustration-about\ me.png');background-size: 100%;background-position:center right;background-repeat: no-repeat; position: absolute; right: 0;">
+                <div class="card bg-transparent" style="width:30%;height:100%;background-image: url('images/illustration-about\ me.png');background-size: 100%;background-position:center right;background-repeat: no-repeat; position: absolute; right: 0;">
                     
                 </div>
             </div>
             <div class="row m-5 pt-5 align-items-center text-light">
                 <div class="col-4">
-                    <div class="d-flex mb-3">
+                    <div class="d-flex mb-3 gap-2">
                         <img src="images/Rectangle 55.png" alt="Skills about Reactangle" class="img-fluid">
                         <h4 class="ms-2">Languages</h4>
                     </div>
                     <ul class="list-unstyled">
-                    <li class="mb-3">JavaScript</li>
-                    <li class="mb-3">Ruby</li>
-                    <li class="mb-3">HTML</li>
-                    <li class="mb-3">CSS</li>
+                        <li class="mb-3">JavaScript</li>
+                        <li class="mb-3">Ruby</li>
+                        <li class="mb-3">HTML</li>
+                        <li class="mb-3">CSS</li>
                     </ul>
                 </div>
                 <div class="col-4">
-                    <div class="d-flex mb-3">
-                        <img src="images/Rectangle 55.png" alt="Skills about Reactangle" class="img-fluid">
-                        <h4 class="ms-2">Languages</h4>
+                    <div class="d-flex mb-3 gap-2">
+                        <img src="images/Rectangle 56@2x.png" alt="Skills about Reactangle" class="img-fluid" style="width: 9%; height: 8%;">
+                        <h4 class="ms-2">Frameworks</h4>
                     </div>
                     <ul class="list-unstyled">
-                    <li class="mb-3">JavaScript</li>
-                    <li class="mb-3">Ruby</li>
-                    <li class="mb-3">HTML</li>
-                    <li class="mb-3">CSS</li>
+                        <li class="mb-3">React.js</li>
+                        <li class="mb-3">Ruby on Rails</li>
+                        <li class="mb-3">RSpec</li>
+                        <li class="mb-3">Capybara</li>
                     </ul>
                 </div>
-                <div class="col-4">
-                    <div class="d-flex mb-3">
-                        <img src="images/Rectangle 55.png" alt="Skills about Reactangle" class="img-fluid">
-                        <h4 class="ms-2">Languages</h4>
+                <div class="col-4 mt-3">
+                    <div class="d-flex mt-3 mb-3 gap-2">
+                        <img src="images/Rectangle 57.png" alt="Skills about Reactangle" class="img-fluid" style="width: 9%; height: 8%;">
+                        <h4 class="ms-2">Skills</h4>
                     </div>
                     <ul class="list-unstyled">
-                    <li class="mb-3">JavaScript</li>
-                    <li class="mb-3">Ruby</li>
-                    <li class="mb-3">HTML</li>
-                    <li class="mb-3">CSS</li>
+                        <li class="mb-3">Database Management</li>
+                        <li class="mb-3">Version Control</li>
+                        <li class="mb-3">CLI</li>
+                        <li class="mb-3">API Design</li>
+                        <li class="mb-3">Web Development</li>
                     </ul>
                 </div>
                 
@@ -201,13 +206,13 @@
                 <div class="col-7">
                     <form action="https://formspree.io/f/xlekzvwp" method="post" class="d-flex flex-column">
                         <label for="fname"></label>
-                            <input type="text" name="fname" id="fname" placeholder="Full Name" maxlength="30" class="mb-2" required>
+                            <input type="text" name="fname" id="fname" placeholder="Full Name" maxlength="30" class="mb-2 form-control" required>
 
                             <label for="email"></label>
-                            <input type="email" id="email" name="email" placeholder="Email address"  required class="mb-2">
+                            <input type="email" id="email" name="email" placeholder="Email address"  required class="mb-2 form-control">
 
                             <label for="comment"></label>
-                            <textarea name="message" maxlength="500" required id="comment"  cols="30" rows="5" placeholder="Write me something..." class="mb-2"></textarea>
+                            <textarea name="message" maxlength="500" required id="comment"  cols="30" rows="5" placeholder="Write me something..." class="mb-2" style="background-color: hsl(15, 33%, 98%);outline: none; border: none; color: black"></textarea>
 
                             <button class="btn-primary btn border-0 w-25 btn-lg d-md-block" type="submit">Get in touch</button>
                     </form>
